@@ -130,7 +130,7 @@ export const Section2InteractiveXRay: React.FC<Section2InteractiveXRayProps> = m
           pointerEvents: introOpacity > 0.1 ? 'auto' : 'none',
           transform: `translate3d(0, -${progress * 70}px, 0)`
         }}
-        className="absolute inset-0 flex flex-col justify-end px-6 md:px-16 lg:px-24 pb-28 sm:pb-32 md:pb-32 lg:pb-36 xl:pb-40 max-w-5xl pointer-events-none z-20"
+        className="absolute inset-0 flex flex-col justify-end px-6 md:px-16 lg:px-24 pb-36 sm:pb-32 md:pb-32 lg:pb-36 xl:pb-40 max-w-5xl pointer-events-none z-20"
       >
         <div className="pointer-events-auto">
           {/* Micro Tag */}
@@ -141,21 +141,21 @@ export const Section2InteractiveXRay: React.FC<Section2InteractiveXRayProps> = m
             </span>
           </div>
 
-          {/* Monumental Ultra-Bold Hero Headline (Unbounded 900 font-display font-black) */}
-          <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-black tracking-tighter text-white mb-3 sm:mb-5 leading-[0.88] drop-shadow-[0_4px_30px_rgba(0,0,0,0.95)]">
+          {/* Monumental Ultra-Bold Hero Headline (Elevada y más grande en móvil) */}
+          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-black tracking-tighter text-white mb-3 sm:mb-5 leading-[0.88] drop-shadow-[0_4px_30px_rgba(0,0,0,0.95)]">
             Radiografía<br />
             <span>de alta tensión.</span>
           </h2>
 
           {/* Hero Subtitle */}
-          <p className="text-white/90 text-xs sm:text-base lg:text-lg font-medium leading-relaxed mb-5 sm:mb-8 max-w-xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-white/90 text-sm sm:text-base lg:text-lg font-medium leading-relaxed mb-5 sm:mb-8 max-w-xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             Desplaza verticalmente para recorrer el núcleo de potencia. Pulsa en los círculos interactivos para inspeccionar cada elemento.
           </p>
 
           {/* Open Monumental Metrics Grid */}
           <div className="grid grid-cols-3 gap-4 sm:gap-10 pt-3.5 sm:pt-6 border-t-2 border-white/30 max-w-xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             <div>
-              <span className="text-2xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
+              <span className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
                 72<span className="text-xs sm:text-base font-bold text-white/70 ml-0.5 sm:ml-1">V</span>
               </span>
               <span className="text-[9px] sm:text-xs font-mono font-bold uppercase tracking-widest text-white/70 block mt-1 sm:mt-1.5">
@@ -164,7 +164,7 @@ export const Section2InteractiveXRay: React.FC<Section2InteractiveXRayProps> = m
             </div>
 
             <div>
-              <span className="text-2xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
+              <span className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
                 4<span className="text-xs sm:text-base font-bold text-white/70 ml-0.5 sm:ml-1">pts</span>
               </span>
               <span className="text-[9px] sm:text-xs font-mono font-bold uppercase tracking-widest text-white/70 block mt-1 sm:mt-1.5">
@@ -173,7 +173,7 @@ export const Section2InteractiveXRay: React.FC<Section2InteractiveXRayProps> = m
             </div>
 
             <div>
-              <span className="text-2xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
+              <span className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-white block tracking-tighter">
                 FOC<span className="text-xs sm:text-base font-bold text-white/70 ml-0.5 sm:ml-1">96%</span>
               </span>
               <span className="text-[9px] sm:text-xs font-mono font-bold uppercase tracking-widest text-white/70 block mt-1 sm:mt-1.5">
