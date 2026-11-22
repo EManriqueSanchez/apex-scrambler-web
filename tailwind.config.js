@@ -17,9 +17,7 @@ export default {
       fontFamily: {
         mono: ['SF Mono', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
         sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
-        display: ['"Unbounded"', '"Syne"', '"Plus Jakarta Sans"', 'sans-serif'],
-        unbounded: ['"Unbounded"', 'sans-serif'],
-        syne: ['"Syne"', 'sans-serif'],
+        display: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
       }
     },
   },
